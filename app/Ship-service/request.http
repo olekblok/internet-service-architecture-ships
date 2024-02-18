@@ -1,0 +1,57 @@
+### GET model by ID
+GET http://localhost:8082/models/e340ba5d-de57-47db-a56f-5bd788f4d183
+
+### Get list of all models
+GET http://localhost:8082/models
+
+### Update a model by ID
+PUT http://localhost:8083/models/df6dfefa-107d-4791-84be-f548b1a9a902
+Content-Type: application/json
+
+{
+  "name": "Cris"
+}
+
+### Create new model
+POST http://localhost:8083/models
+Content-Type: application/json
+
+{
+  "name": "Nikita",
+  "length_of_ships": 25
+}
+
+### DELETE model by id
+DELETE http://localhost:8083/models/df6dfefa-107d-4791-84be-f548b1a9a902
+
+
+
+
+### Get  single ship by id
+GET http://localhost:8082/ships/055555d6-1cd0-4268-a519-176381ed2799
+
+### Get ship list
+GET http://localhost:8083/ships
+
+### Create new ship
+POST http://localhost:8083/ships
+Content-Type: application/json
+
+{
+  "name": "Leo",
+  "cost": 2000000,
+  "model_id": "e340ba5d-de57-47db-a56f-5bd788f4d183"
+}
+
+### Update model name
+PUT http://localhost:8083/ships/04dbe36d-e6ca-4030-a3e9-b202967de4cd
+Content-Type: application/json
+
+{
+  "name": "Leopard Updated",
+  "cost": 10000
+}
+
+### DELETE model by id
+DELETE http://localhost:8083/ships/04dbe36d-e6ca-4030-a3e9-b202967de4cd
+

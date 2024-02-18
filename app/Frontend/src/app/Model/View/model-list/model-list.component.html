@@ -1,0 +1,27 @@
+<div style="display: flex; justify-content: center; align-items: center; height: 100vh;">
+  <article class="text--justified">
+    <button [routerLink]="['/models', 'add']" class="add-button">Add new Model</button>
+    <br>
+    <br>
+    <table *ngIf="models">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>View</th>
+        <th>Edit</th>
+        <th>Delete</th>
+      </tr>
+      </thead>
+      <tbody>
+      <tr *ngFor="let model of models.models" class="model-row">
+        <td class="model-name">{{model.name}}</td>
+        <td><a [routerLink]="['/models', model.id]">View</a></td>
+        <td><a [routerLink]="['/models', model.id, 'edit']" class="action-link">Edit</a></td>
+        <td>
+          <button (click)="onDelete(model)" class="delete-button">Delete</button>
+        </td>
+      </tr>
+      </tbody>
+    </table>
+  </article>
+</div>
