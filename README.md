@@ -31,8 +31,7 @@ This project is a Ship Management System developed with Java Spring Boot for the
 
 1. Clone this repository.
 2. Navigate to the `backend` directory.
-3. Configure your MySQL database details in `application.properties`.
-4. Run `mvn spring-boot:run` to start the backend server.
+3. Run `mvn spring-boot:run` to start the backend server.
 
 ### Frontend (Angular)
 
