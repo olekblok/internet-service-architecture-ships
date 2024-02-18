@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="ShipService" />
+        <module name="Internet-sercice-architectures" />
+        <module name="isa" />
+        <module name="ModelService" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="CarBrandService" target="17" />
+      <module name="CarModelService" target="17" />
+      <module name="Citizen-service" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="CarBrandService" options="-parameters" />
+      <module name="CarModelService" options="-parameters" />
+      <module name="Citizen-service" options="-parameters" />
+      <module name="Internet-sercice-architectures" options="-parameters" />
+      <module name="ModelService" options="-parameters" />
+      <module name="ShipService" options="-parameters" />
+      <module name="isa" options="-parameters" />
+    </option>
+  </component>
+</project>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/City-Mangament-Gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/Citizen-service/pom.xml" />
+        <option value="$PROJECT_DIR$/City-Service/pom.xml" />
+        <option value="$PROJECT_DIR$/CarModel-service/pom.xml" />
+        <option value="$PROJECT_DIR$/CarBrand-Service/pom.xml" />
+        <option value="$PROJECT_DIR$/CarBrand-Mangament-Gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/Model-Service/pom.xml" />
+        <option value="$PROJECT_DIR$/Ship-service/pom.xml" />
+        <option value="$PROJECT_DIR$/Model-Mangament-Gateway/pom.xml" />
+      </list>
+    </option>
+    <option name="workspaceImportForciblyTurnedOn" value="true" />
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="openjdk-20" project-jdk-type="JavaSDK" />
+</project>
